@@ -1,0 +1,25 @@
+.nav-top {
+  padding: 20px;
+  background-color: #1f2e3f;
+  color: white;
+  position: fixed;
+  right: 0px;
+  font-size: smaller;
+  width: 800px;
+}
+.nav-top .links {
+  margin-left: 20px;
+}
+.nav-top .box {
+  background-color: aliceblue;
+  margin-top: 7px;
+  margin-left: 30px;
+  height: 25px;
+  padding: 2px;
+}
+.nav-top .box .contact-us {
+  height: 20px;
+  position: relative;
+  padding: 0px;
+  background-color: #1f2e3f;
+}
