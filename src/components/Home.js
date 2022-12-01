@@ -10,7 +10,7 @@ export default function Home() {
         width={700}
         height={600}
         src={
-          "https://images.pexels.com/photos/263209/pexels-photo-263209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          "https://images.pexels.com/photos/159213/hall-congress-architecture-building-159213.jpeg"
         }></Image>
       <div></div>
     </div>
