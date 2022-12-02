@@ -5,7 +5,7 @@ import footer_logo from "./assets/images/footer-logo.png";
 class Footer extends Component {
   render() {
     return (
-      <div className="">
+      <div>
         <Container>
           <Row className="footer">
             <Col
