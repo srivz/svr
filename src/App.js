@@ -1,8 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Home from "./components/Home";
 import "./components/assets/css/index.css";
+import Home from "./components/Home";
 
 export default function App() {
   return (
