@@ -1,7 +1,7 @@
 body {
   overflow-y: scroll;
   overflow-x: hidden;
-  width: 100%;
+  width: 100vw;
   height: fit-content;
   scroll-behavior: smooth;
   background-color: #1f2e3f;
@@ -181,14 +181,24 @@ body {
   font-family: "Italiana", serif;
 }
 .about-us-news-heading-right {
-  margin: auto;
-  text-align: right;
-  padding-right: 50px;
   color: #5b6a7d;
-  font-size: 16px;
 }
-.about-us-news-heading-right a {
+.about-us-news-heading-right-text {
+  font-size: 16px;
+  padding: auto;
+  margin-top: 20px;
+  margin-right: 10px;
+  float: right;
   color: #5b6a7d;
+}
+.about-us-news-heading-right-icon {
+  float: right;
+  color: #5b6a7d;
+}
+
+.about-us-news-heading-right-icon:hover {
+  float: right;
+  color: #8291a5;
 }
 hr.about-us-news-line {
   margin-top: 20px;
@@ -221,14 +231,12 @@ hr.about-us-news-line {
   border-radius: 45px;
   padding: auto;
   font-size: 10px;
-  color: #cbd3de;
+  color: #acb5bf;
   text-align: justify;
 }
-/* sajhfbakjsfbkasf */
 .contact-us {
   margin-top: 40px;
   margin-left: 25px;
-  margin-bottom: 40px;
   padding-right: 60px;
 }
 .contact-us-heading {
@@ -236,4 +244,69 @@ hr.about-us-news-line {
   font-size: 64px;
   text-align: center;
   font-family: "Italiana", serif;
+}
+.contact-us-content {
+  margin-bottom: 40px;
+  padding: 50px 100px 10px 100px;
+  color: #acb5bf;
+}
+.contact-us-box {
+  padding-right: 50px;
+  text-align: left;
+}
+.contact-us-box .textbox {
+  border-radius: 0%;
+  border: none;
+  border-bottom: 2px solid #959ca3;
+}
+.contact-us-submit {
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 45px;
+}
+
+/* sajhfbakjsfbkasf */
+
+.footer {
+  background-color: #1f2e3f;
+  color: #ffffff;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+.footer-col1 {
+  margin: auto;
+}
+.footer-col2 {
+  margin-left: 40px;
+}
+.footer-col3 {
+  margin-left: 40px;
+}
+.footer-col2-heading {
+  font-size: 42px;
+  font-family: "Italiana", serif;
+}
+.footer-col3-heading {
+  padding-left: 10px;
+  font-size: 32px;
+  font-family: "Italiana", serif;
+}
+.footer-col2-address {
+  margin-top: 10px;
+}
+.footer-col2-address-box {
+  width: 250px;
+}
+.footer-col2-address-heading {
+  font-weight: 700;
+  font-size: 14px;
+  padding-top: 10px;
+}
+.footer-col2-address-content {
+  text-align: justify;
+  font-size: 14px;
+  color: #dad5d5;
 }
