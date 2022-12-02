@@ -1,5 +1,7 @@
 import Nav1 from "./navs/Nav1";
-import { Col, Container, Row, Image, Figure } from "react-bootstrap";
+import { Col, Container, Row, Image, Figure, Button } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import aboutUs_page_img1 from "./assets/images/aboutUs1.png";
 import aboutUs_page_img2 from "./assets/images/aboutUs2.png";
 import aboutUs_page_img3 from "./assets/images/aboutUs3.png";
@@ -326,11 +328,114 @@ class Home extends Component {
             <Container>
               <Row className="about-us-news">
                 <Col className="about-us-news-heading">News & Insights</Col>
-                <Col className="about-us-news-heading-right">View all</Col>
+                <Col className="about-us-news-heading-right">
+                  View all{" "}
+                  <a href="#all">
+                    <i class="fa-solid fa-circle-chevron-right fa-2xl"></i>
+                  </a>
+                </Col>
                 <hr className="about-us-news-line" />
               </Row>
-              <Row>
-                <Col></Col>
+              <Row className="news-content">
+                <Col className="news-box">
+                  <p className="news-headline">
+                    Experienced advocates with exposure to global best practices
+                  </p>
+                  <p className="news-description">
+                    SV&R Partners is a sleek new age law firm founded by
+                    dedicated and experienced advocates with exposure to global
+                    best practices. SV&R Partners is formed by the merger of S
+                    and V Law Offices and Rajasekaran Associates. Before the
+                    merger, for over 20 years the merged firms each have
+                    represented a diverse list of clients from Fortune 500
+                    companies to highly innovative startups, and small and
+                    medium enterprises; ....
+                  </p>
+                  <p className="news-description">
+                    <Button
+                      variant="light"
+                      size="lg">
+                      Read more
+                    </Button>
+                  </p>
+                </Col>
+                <Col className="news-box">
+                  <p className="news-headline">
+                    Experienced advocates with exposure to global best practices
+                  </p>
+                  <p className="news-description">
+                    SV&R Partners is a sleek new age law firm founded by
+                    dedicated and experienced advocates with exposure to global
+                    best practices. SV&R Partners is formed by the merger of S
+                    and V Law Offices and Rajasekaran Associates. Before the
+                    merger, for over 20 years the merged firms each have
+                    represented a diverse list of clients from Fortune 500
+                    companies to highly innovative startups, and small and
+                    medium enterprises; ....
+                  </p>
+                  <p className="news-description">
+                    <Button
+                      variant="light"
+                      size="lg">
+                      Read more
+                    </Button>
+                  </p>
+                </Col>
+                <Col className="news-box">
+                  <p className="news-headline">
+                    Experienced advocates with exposure to global best practices
+                  </p>
+                  <p className="news-description">
+                    SV&R Partners is a sleek new age law firm founded by
+                    dedicated and experienced advocates with exposure to global
+                    best practices. SV&R Partners is formed by the merger of S
+                    and V Law Offices and Rajasekaran Associates. Before the
+                    merger, for over 20 years the merged firms each have
+                    represented a diverse list of clients from Fortune 500
+                    companies to highly innovative startups, and small and
+                    medium enterprises; ....
+                  </p>
+                  <p className="news-description">
+                    <Button
+                      variant="light"
+                      size="lg">
+                      Read more
+                    </Button>
+                  </p>
+                </Col>
+                <Col className="news-box">
+                  <p className="news-headline">
+                    Experienced advocates with exposure to global best practices
+                  </p>
+                  <p className="news-description">
+                    SV&R Partners is a sleek new age law firm founded by
+                    dedicated and experienced advocates with exposure to global
+                    best practices. SV&R Partners is formed by the merger of S
+                    and V Law Offices and Rajasekaran Associates. Before the
+                    merger, for over 20 years the merged firms each have
+                    represented a diverse list of clients from Fortune 500
+                    companies to highly innovative startups, and small and
+                    medium enterprises; ....
+                  </p>
+                  <p className="news-description">
+                    <Button
+                      variant="light"
+                      size="lg">
+                      Read more
+                    </Button>
+                  </p>
+                </Col>
+              </Row>
+            </Container>
+            <Container>
+              <Row className="contact-us">
+                <Col className="contact-us-heading">Contact Us</Col>
+              </Row>
+              <Row className="news-content">
+                <Col className="news-box"></Col>
+                <Col className="news-box"></Col>
+                <Col className="news-box"></Col>
+                <Col className="news-box"></Col>
               </Row>
             </Container>
           </Row>
