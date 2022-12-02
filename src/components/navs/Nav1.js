@@ -1,49 +1,67 @@
 import React from "react";
-import { Nav, Navbar } from "react-bootstrap";
+import "./index.css";
 
 export default function Nav1() {
   return (
-    <div className="nav-top">
-      <Navbar
-        variant="dark"
-        expand="lg">
-        <Nav
-          className="justify-content-end"
-          activeKey="/home">
-          <Nav.Link
-            className="links"
-            href="/home">
-            About Us
-          </Nav.Link>
-          <Nav.Link
-            className="links"
-            href="/home">
-            Practice Area/Expertise
-          </Nav.Link>
-          <Nav.Link
-            className="links"
-            href="/home">
-            Our Team
-          </Nav.Link>
-          <Nav.Link
-            className="links"
-            href="/home">
-            News and Insights
-          </Nav.Link>
-          <Nav.Link
-            className="links"
-            href="/home">
-            Join Us
-          </Nav.Link>
-          <div className="box">
-            <Nav.Link
-              className="contact-us"
-              href="/home">
-              Contact Us
-            </Nav.Link>
-          </div>
-        </Nav>
-      </Navbar>
+    <div>
+      <nav>
+        <input
+          type="checkbox"
+          id="check"
+        />
+        <label
+          for="check"
+          class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <span class="logo"></span>
+        <div class="nav-links">
+          <ul>
+            <li>
+              <a
+                href="#d"
+                class="nav-link">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a
+                href="#d"
+                class="nav-link">
+                Practice Area/ Expertise
+              </a>
+            </li>
+            <li>
+              <a
+                href="#d"
+                class="nav-link">
+                Our Team
+              </a>
+            </li>
+            <li>
+              <a
+                href="#d"
+                class="nav-link">
+                News and Insights
+              </a>
+            </li>
+            <li>
+              <a
+                href="#d"
+                class="nav-link">
+                Join Us
+              </a>
+            </li>
+            <li class="nav-box">
+              <a
+                href="#d"
+                class="nav-link">
+                Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   );
 }
