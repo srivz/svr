@@ -1,6 +1,5 @@
 import Nav1 from "./navs/Nav1";
 import { Col, Container, Row, Image, Figure, Button } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import aboutUs_page_img1 from "./assets/images/aboutUs1.png";
 import aboutUs_page_img2 from "./assets/images/aboutUs2.png";
