@@ -329,7 +329,7 @@ class Home extends Component {
                 <Col className="about-us-news-heading">News & Insights</Col>
                 <Col className="about-us-news-heading-right">
                   View all{" "}
-                  <a href="#">
+                  <a href="/">
                     <i class="fa-solid fa-circle-chevron-right fa-2xl"></i>
                   </a>
                 </Col>
