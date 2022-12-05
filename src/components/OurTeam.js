@@ -1,7 +1,7 @@
 import Nav2 from "./navs/Nav2";
 import { Col, Row, Image, Figure } from "react-bootstrap";
 
-import aboutUs_page_img1 from "./assets/images/aboutUs1.png";
+import ourTeam from "./assets/images/ourteam.png";
 
 import harshavardhan from "./assets/images/harshavardhan.png";
 import sureshkumarm from "./assets/images/sureshkumarm.png";
@@ -22,7 +22,7 @@ export default function OurTeam() {
       </Row>
       <Row className="our-team-page-block1">
         <Col className="our-team-page-image1">
-          <Image src={aboutUs_page_img1} />
+          <Image src={ourTeam} />
           <div className="our-team-page-text1"></div>
           <p className="our-team-page-heading1">
             Meet <br />
