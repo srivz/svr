@@ -32,14 +32,14 @@ export default function Nav2() {
             </li>
             <li>
               <a
-                href="/PracticeArea"
+                href="/practiceArea"
                 class="nav1-link">
                 Practice Area/ Expertise
               </a>
             </li>
             <li>
               <a
-                href="/OurTeam"
+                href="/ourTeam"
                 class="nav1-link">
                 Our Team
               </a>

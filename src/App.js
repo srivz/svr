@@ -14,10 +14,10 @@ export default function App() {
           path="/"
           element={<Home />}></Route>
         <Route
-          path="/OurTeam"
+          path="/ourTeam"
           element={<OurTeam />}></Route>
         <Route
-          path="/PracticeArea"
+          path="/practiceArea"
           element={<PracticeArea />}></Route>
       </Routes>
     </Router>

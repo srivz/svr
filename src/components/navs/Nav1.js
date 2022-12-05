@@ -26,14 +26,14 @@ export default function Nav1() {
             </li>
             <li>
               <a
-                href="/PracticeArea"
+                href="/practiceArea"
                 class="nav-link">
                 Practice Area/ Expertise
               </a>
             </li>
             <li>
               <a
-                href="/OurTeam"
+                href="/ourTeam"
                 class="nav-link">
                 Our Team
               </a>
