@@ -319,7 +319,7 @@ hr.about-us-news-line {
 }
 .our-team-page-image1 img {
   width: 76vw;
-  height: 100vh;
+  height: 101vh;
 }
 .our-team-page-text1 {
   position: absolute;
@@ -440,4 +440,155 @@ hr.about-us-news-line {
 }
 .practice-area-page-heading2-list {
   font-size: 30px;
+}
+
+.practice-area-page-heading3 {
+  font-size: 50px;
+  color: white;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 45px;
+  background-color: #1f2e3f;
+}
+
+.practice-area-page-heading3-description {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 40px;
+  line-height: 1.1;
+  text-align: justify;
+  font-size: 30px;
+}
+.practice-area-page-heading3-dark {
+  padding-top: 40px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin-left: 30px;
+  height: fit-content;
+  color: white;
+  background-color: #1f2e3f;
+}
+
+.practice-area-page-heading3-list {
+  font-size: 23px;
+  margin-bottom: 50px;
+  line-height: 1.2;
+}
+.practice-area-page-heading3-list-bold {
+  font-size: 25px;
+  font-weight: 700;
+}
+.practice-area-page-heading4 {
+  font-size: 50px;
+  color: white;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 45px;
+  background-color: #1f2e3f;
+}
+
+.practice-area-page-heading4-description {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 40px;
+  line-height: 1.1;
+  text-align: justify;
+  font-size: 30px;
+}
+
+.practice-area-page-heading4-list {
+  margin-left: 5px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.practice-area-page-heading5 {
+  font-size: 50px;
+  color: white;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 45px;
+  background-color: #1f2e3f;
+}
+
+.practice-area-page-heading5-description {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 40px;
+  line-height: 1.1;
+  text-align: justify;
+  font-size: 30px;
+}
+.practice-area-page-heading5-list {
+  margin-left: 5px;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+
+.practice-area-page-heading6-dark {
+  padding-top: 80px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin-left: 30px;
+  height: fit-content;
+  color: white;
+  background-color: #1f2e3f;
+}
+
+.practice-area-page-heading6 {
+  font-size: 45px;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 45px;
+  background-color: #1f2e3f;
+}
+
+.practice-area-page-heading6-description {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 40px;
+  line-height: 1.1;
+  text-align: justify;
+  text-align-last: center;
+  font-size: 30px;
+}
+
+.practice-area-page-heading7-dark {
+  padding-top: 60px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin-left: 30px;
+  margin-bottom: 200px;
+  height: fit-content;
+  color: white;
+  background-color: #1f2e3f;
+}
+.practice-area-page-heading7 {
+  font-size: 45px;
+  color: white;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 45px;
+  background-color: #1f2e3f;
+}
+
+.practice-area-page-heading7-description {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 40px;
+  line-height: 1.1;
+  text-align: justify;
+  text-align-last: center;
+  font-size: 30px;
+}
+hr.practice-area-last {
+  margin-bottom: 100px;
+  width: 50vw;
+  border: 2px solid rgb(241, 239, 239);
 }
