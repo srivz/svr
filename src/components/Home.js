@@ -53,19 +53,16 @@ class Home extends Component {
         <Row>
           <Nav1 />
         </Row>
-        <Container>
-          <Row>
-            <Col className="about-us-image1">
-              <Image
-                width={700}
-                height={600}
-                src={aboutUs_page_img1}></Image>
-            </Col>
-            <Col className="about-us-text1">
-              <p className="about-us-heading1">Where clients comes first</p>
-            </Col>
-          </Row>
-        </Container>
+        <Row>
+          <Col className="about-us-image1">
+            <Image
+              width={700}
+              src={aboutUs_page_img1}></Image>
+          </Col>
+          <Col className="about-us-text1">
+            <p className="about-us-heading1">Where clients comes first</p>
+          </Col>
+        </Row>
         <Container>
           <Row>
             <Col className="about-us-text2">

@@ -3,6 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./components/assets/css/index.css";
 import Home from "./components/Home";
+import OurTeam from "./components/OurTeam";
+import PracticeArea from "./components/PracticeArea";
 
 export default function App() {
   return (
@@ -11,6 +13,12 @@ export default function App() {
         <Route
           path="/"
           element={<Home />}></Route>
+        <Route
+          path="/OurTeam"
+          element={<OurTeam />}></Route>
+        <Route
+          path="/PracticeArea"
+          element={<PracticeArea />}></Route>
       </Routes>
     </Router>
   );

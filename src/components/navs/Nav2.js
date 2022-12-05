@@ -1,61 +1,67 @@
 import React from "react";
+import { Image } from "react-bootstrap";
 import "./index.css";
+import logo from "../assets/images/logo.png";
 
-export default function Nav1() {
+export default function Nav2() {
   return (
     <div>
       <nav class="nav1">
         <input
           type="checkbox"
-          id="check"
+          id="check1"
         />
         <label
-          for="check"
-          class="checkbtn">
+          for="check1"
+          class="checkbtn1">
           <i class="fas fa-bars"></i>
         </label>
-        <span class="logo"></span>
-        <div class="nav-links">
+        <span class="logo">
+          <Image
+            width={120}
+            src={logo}></Image>
+        </span>
+        <div class="nav1-links">
           <ul>
             <li>
               <a
                 href="#d"
-                class="nav-link">
+                class="nav1-link">
                 About Us
               </a>
             </li>
             <li>
               <a
                 href="/PracticeArea"
-                class="nav-link">
+                class="nav1-link">
                 Practice Area/ Expertise
               </a>
             </li>
             <li>
               <a
                 href="/OurTeam"
-                class="nav-link">
+                class="nav1-link">
                 Our Team
               </a>
             </li>
             <li>
               <a
                 href="#d"
-                class="nav-link">
+                class="nav1-link">
                 News and Insights
               </a>
             </li>
             <li>
               <a
                 href="#d"
-                class="nav-link">
+                class="nav1-link">
                 Join Us
               </a>
             </li>
-            <li class="nav-box">
+            <li class="nav1-box">
               <a
                 href="#d"
-                class="nav-link">
+                class="nav1-link">
                 Contact Us
               </a>
             </li>
