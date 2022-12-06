@@ -4,7 +4,7 @@ import "./index.css";
 export default function Nav1() {
   return (
     <div>
-      <nav class="nav1">
+      <nav class="nav">
         <input
           type="checkbox"
           id="check"

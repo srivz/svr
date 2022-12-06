@@ -18,7 +18,9 @@ class Footer extends Component {
             <Col
               md="auto"
               className="footer-col2">
-              <Row className="footer-col2-heading">Get in Touch</Row>
+              <Row className="footer-col2-heading">
+                <span className="footer-col2-header1">Get in Touch</span>
+              </Row>
               <Row className="footer-col2-address">
                 <Col className="footer-col2-address-box">
                   <span className="footer-col2-address-heading">

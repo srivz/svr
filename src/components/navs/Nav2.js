@@ -9,11 +9,11 @@ export default function Nav2() {
       <nav class="nav1">
         <input
           type="checkbox"
-          id="check1"
+          id="check"
         />
         <label
-          for="check1"
-          class="checkbtn1">
+          for="check"
+          class="checkbtn">
           <i class="fas fa-bars"></i>
         </label>
         <span class="logo">
@@ -21,47 +21,47 @@ export default function Nav2() {
             width={120}
             src={logo}></Image>
         </span>
-        <div class="nav1-links">
+        <div class="nav-links">
           <ul>
             <li>
               <a
                 href="/"
-                class="nav1-link">
+                class="nav-link">
                 About Us
               </a>
             </li>
             <li>
               <a
                 href="/practiceArea"
-                class="nav1-link">
+                class="nav-link">
                 Practice Area/ Expertise
               </a>
             </li>
             <li>
               <a
                 href="/ourTeam"
-                class="nav1-link">
+                class="nav-link">
                 Our Team
               </a>
             </li>
             <li>
               <a
                 href="#d"
-                class="nav1-link">
+                class="nav-link">
                 News and Insights
               </a>
             </li>
             <li>
               <a
                 href="#d"
-                class="nav1-link">
+                class="nav-link">
                 Join Us
               </a>
             </li>
-            <li class="nav1-box">
+            <li class="nav-box">
               <a
                 href="#d"
-                class="nav1-link">
+                class="nav-link">
                 Contact Us
               </a>
             </li>

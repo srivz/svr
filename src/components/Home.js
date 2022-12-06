@@ -44,7 +44,7 @@ class Home extends Component {
         items: 2,
       },
       mobile: {
-        breakpoint: { max: 464, min: 0 },
+        breakpoint: { max: 600, min: 0 },
         items: 1,
       },
     };
@@ -150,7 +150,7 @@ class Home extends Component {
             </Row>
           </Container>
         </Row>
-        <Row className="white">
+        <Row className="white1">
           <Container className="box-body">
             <Row className="box">
               <Col className="box-inside">
@@ -258,8 +258,7 @@ class Home extends Component {
                 infinite={true}
                 swipeable={false}
                 draggable={false}
-                itemClass="carousel-item-padding-190-px"
-                removeArrowOnDeviceType={["tablet", "mobile"]}>
+                itemClass="carousel-item-padding-190-px">
                 <div className="team-member">
                   <Figure>
                     <Figure.Image
@@ -433,24 +432,30 @@ class Home extends Component {
             </Col>
           </Row>
         </Container>
-        <Row className="white">
+        <Row className="white2">
           <Container>
             <Row className="about-us-news">
-              <Col className="about-us-news-heading">News & Insights</Col>
+              <Col
+                md={5}
+                className="about-us-news-heading">
+                News & Insights
+              </Col>
               <Col className="about-us-news-heading-right">
                 <a
                   className="about-us-news-heading-right-icon"
                   href="/">
-                  <i class="fa-solid fa-circle-chevron-right fa-4x"></i>
+                  <i class="fa-solid fa-circle-chevron-right fa-3x"></i>
                 </a>
                 <span className="about-us-news-heading-right-text">
                   View all
                 </span>
               </Col>
-              <hr className="about-us-news-line" />
             </Row>
+            <hr className="about-us-news-line" />
             <Row className="news-content">
-              <Col className="news-box">
+              <Col
+                md={3}
+                className="news-box">
                 <p className="news-headline">
                   Experienced advocates with exposure to global best practices
                 </p>
@@ -471,7 +476,9 @@ class Home extends Component {
                   </Button>
                 </p>
               </Col>
-              <Col className="news-box">
+              <Col
+                md={3}
+                className="news-box">
                 <p className="news-headline">
                   Experienced advocates with exposure to global best practices
                 </p>
@@ -492,7 +499,9 @@ class Home extends Component {
                   </Button>
                 </p>
               </Col>
-              <Col className="news-box">
+              <Col
+                md={3}
+                className="news-box">
                 <p className="news-headline">
                   Experienced advocates with exposure to global best practices
                 </p>
@@ -513,7 +522,9 @@ class Home extends Component {
                   </Button>
                 </p>
               </Col>
-              <Col className="news-box">
+              <Col
+                md={3}
+                className="news-box">
                 <p className="news-headline">
                   Experienced advocates with exposure to global best practices
                 </p>

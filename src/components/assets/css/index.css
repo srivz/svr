@@ -15,7 +15,7 @@ body {
 }
 .about-us-image1 img {
   position: relative;
-  top: -80px;
+  top: -100px;
 }
 .about-us-heading1 {
   position: relative;
@@ -54,6 +54,13 @@ body {
   margin-top: 25vh;
 }
 .white {
+  padding-top: 60px;
+  padding-left: 50px;
+  background-color: white;
+  height: fit-content;
+  color: black;
+}
+.white1 {
   padding-top: 60px;
   padding-left: 50px;
   background-color: white;
@@ -154,16 +161,17 @@ body {
 }
 .team-member {
   text-align: center;
-  color: white;
 }
 .team-member-name {
   font-size: 32px;
+  color: white;
   font-family: "Italiana", serif;
   text-align: center;
 }
 .team-member-name-description {
   width: 320px;
   font-size: 12px;
+  color: white;
   text-align: justify;
 }
 .about-us-news {
@@ -203,6 +211,13 @@ hr.about-us-news-line {
   border: 2px solid rgb(0, 0, 0);
 }
 
+.white2 {
+  padding-top: 60px;
+  padding-left: 50px;
+  background-color: white;
+  height: fit-content;
+  color: black;
+}
 .news-content {
   margin-top: 40px;
   margin-left: 25px;
@@ -211,7 +226,6 @@ hr.about-us-news-line {
 }
 .news-box {
   padding-right: 25px;
-  width: 100px;
   padding: auto;
 }
 .news-headline {
@@ -263,7 +277,7 @@ hr.about-us-news-line {
   border-radius: 45px;
 }
 
-/* sajhfbakjsfbkasf */
+/* FOOTER */
 
 .footer {
   background-color: #1f2e3f;
@@ -308,6 +322,8 @@ hr.about-us-news-line {
   font-size: 14px;
   color: #dad5d5;
 }
+/* FOOTER */
+
 /* OUR TEAM PAGE */
 .our-team-page-block1 {
   position: relative;
@@ -357,7 +373,7 @@ hr.about-us-news-line {
   height: 100px;
   position: absolute;
   top: -20px;
-  left: -12px;
+  right: -12px;
   z-index: 1;
   background-color: #1f2e3f;
 }
@@ -591,4 +607,652 @@ hr.practice-area-last {
   margin-bottom: 100px;
   width: 50vw;
   border: 2px solid rgb(241, 239, 239);
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------MOBILE VIEW------------------------------------------ */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 600px) {
+  body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100vw;
+    max-width: 100%;
+    height: fit-content;
+    scroll-behavior: smooth;
+    background-color: #1f2e3f;
+  }
+  .about-us-page-block-1 {
+    height: fit-content;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .about-us-image1 img {
+    position: relative;
+    width: 110vw;
+    top: -50px;
+  }
+  .about-us-heading1 {
+    color: white;
+    margin-top: -200px;
+    margin-left: 30vw;
+    height: fit-content;
+    width: fit-content;
+    font-size: 45px;
+    font-family: "Italiana", serif;
+  }
+  .about-us-text2 {
+    padding-left: 20px;
+    color: white;
+    height: fit-content;
+    margin-left: 0px;
+  }
+  .about-us-heading2 {
+    padding-left: 20px;
+    height: fit-content;
+    margin-top: 200px;
+    width: 400px;
+    line-height: normal;
+    font-family: "Italiana", serif;
+    font-size: 45px;
+  }
+
+  .about-us-heading2-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    color: white;
+    font-family: "Arial", serif;
+    text-align: justify;
+    font-size: 12px;
+  }
+  .about-us-image2 img {
+    position: relative;
+    width: 100vw;
+    margin-top: 15vh;
+  }
+  .white {
+    padding-top: 60px;
+    padding-left: 50px;
+    background-color: white;
+    height: 180vh;
+    width: 112vw;
+    color: black;
+  }
+
+  .white1 {
+    padding-top: 60px;
+    padding-left: 50px;
+    width: 112vw;
+    background-color: white;
+    height: 80vh;
+    color: black;
+  }
+  .about-us-text3 {
+    margin-left: 0;
+    padding-right: 5px;
+    height: fit-content;
+    padding-left: 0px;
+  }
+  .about-us-heading3 {
+    height: fit-content;
+    width: 360px;
+    font-family: "Italiana", serif;
+    font-size: 40px;
+  }
+  .about-us-heading3-content {
+    padding-right: 20px;
+    padding-top: 20px;
+    width: fit-content;
+    line-height: 1.2;
+    font-family: "Arial", serif;
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .about-us-image3 img {
+    position: relative;
+    width: 60vw;
+    margin-left: 50px;
+    margin-top: 3vh;
+  }
+  .about-us-text4 {
+    margin-left: -10px;
+    height: fit-content;
+  }
+  .about-us-heading4 {
+    position: relative;
+    top: -150px;
+    left: 2px;
+    height: fit-content;
+    width: 390px;
+    line-height: normal;
+    font-family: "Italiana", serif;
+    font-size: 35px;
+  }
+
+  .about-us-image4 img {
+    position: relative;
+    top: -500px;
+    width: 80vw;
+  }
+
+  .about-us-heading4-content {
+    padding-top: 1vh;
+    margin-left: -5px;
+    padding-left: 0px;
+    padding-right: 5px;
+    position: relative;
+    width: 400px;
+    height: fit-content;
+    font-family: "Arial", serif;
+    text-align: justify;
+    font-size: 15px;
+  }
+  .box-body {
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 0px;
+    margin-left: -15px;
+    padding-left: 0px;
+    padding-right: 5px;
+    margin-right: 5px;
+  }
+  .box-inside {
+    height: 250px;
+    width: 250px;
+    text-align: center;
+  }
+  .box .figure {
+    border-radius: 50%;
+  }
+  .about-us-our-team {
+    margin: 10px;
+    padding-right: 10px;
+  }
+  .about-us-our-team-heading {
+    height: fit-content;
+    width: fit-content;
+    font-family: "Italiana", serif;
+    font-size: 45px;
+    color: white;
+    padding-left: 60px;
+    margin-bottom: 50px;
+  }
+  .team-member {
+    text-align: center;
+    color: white;
+  }
+  .team-member-name {
+    font-size: 32px;
+    font-family: "Italiana", serif;
+    text-align: center;
+  }
+  .team-member-name-description {
+    width: 320px;
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .white2 {
+    padding-top: 60px;
+    padding-left: 50px;
+    background-color: white;
+    height: fit-content;
+    width: 112vw;
+    color: black;
+  }
+  .about-us-news {
+    margin: 1px;
+    margin-left: -10px;
+    margin-top: 20px;
+    width: 400px;
+  }
+  .about-us-news-heading {
+    color: #1f2e3f;
+    font-size: 38px;
+    width: 100vw;
+    font-family: "Italiana", serif;
+  }
+  .about-us-news-heading-right {
+    color: #5b6a7d;
+  }
+  .about-us-news-heading-right-text {
+    font-size: 16px;
+    padding: auto;
+    color: #5b6a7d;
+  }
+  .about-us-news-heading-right-icon {
+    padding-top: 5px;
+    color: #5b6a7d;
+  }
+
+  .about-us-news-heading-right-icon:hover {
+    color: #8291a5;
+  }
+  hr.about-us-news-line {
+    margin-top: 20px;
+    margin-left: -31px;
+    width: 5;
+    border: 2px solid rgb(0, 0, 0);
+  }
+
+  .news-content {
+    margin-top: 1px;
+    margin-left: -30px;
+    margin-bottom: 40px;
+    padding-right: 20px;
+  }
+  .news-box {
+    padding-right: 5px;
+    padding: auto;
+  }
+  .news-headline {
+    color: #1f2e3f;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Italiana", serif;
+  }
+  .news-content {
+    font-size: 10px;
+    color: #acb5bf;
+    text-align: justify;
+  }
+  .news-content button {
+    border-radius: 45px;
+    padding: auto;
+    font-size: 10px;
+    color: #acb5bf;
+    text-align: justify;
+  }
+  .contact-us {
+    margin-top: 5px;
+    margin-left: -15px;
+    padding-right: 10px;
+  }
+  .contact-us-heading {
+    color: #1f2e3f;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Italiana", serif;
+  }
+  .contact-us-content {
+    margin-bottom: 40px;
+    padding: 50px 10px 10px 10px;
+    color: #acb5bf;
+  }
+  .contact-us-box {
+    padding-right: 50px;
+    text-align: left;
+  }
+  .contact-us-box .textbox {
+    border-radius: 0%;
+    border: none;
+    border-bottom: 2px solid #959ca3;
+  }
+  .contact-us-submit {
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 45px;
+  }
+
+  /* sajhfbakjsfbkasf */
+
+  .footer {
+    color: #ffffff;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 60px;
+  }
+  .footer-col1 {
+    text-align: center;
+  }
+  .footer-col1 img {
+    text-align: center;
+    width: 50vw;
+    margin-left: 20px;
+  }
+  .footer-col2 {
+    text-align: center;
+    margin-left: 15px;
+  }
+  .footer-col3 {
+    text-align: center;
+    margin-left: 1px;
+  }
+  .footer-col2-heading {
+    text-align: center;
+    font-size: 32px;
+    font-family: "Italiana", serif;
+  }
+  .footer-col3-heading {
+    padding-left: 37vw;
+    padding-top: 5px;
+    font-size: 28px;
+    font-family: "Italiana", serif;
+  }
+  .footer-col2-address {
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .footer-col2-address-box {
+    width: 250px;
+  }
+  .footer-col2-address-heading {
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .footer-col2-address-content {
+    text-align: justify;
+    font-size: 10px;
+    color: #dad5d5;
+  }
+  /* OUR TEAM PAGE */
+  .our-team-page-block1 {
+    position: relative;
+    top: 0px;
+    background-color: #231f20;
+    width: 106vw;
+    height: fit-content;
+    left: 0px;
+    margin-bottom: 200px;
+  }
+  .our-team-page-image1 img {
+    width: 90vw;
+    height: auto;
+  }
+  .our-team-page-text1 {
+    position: absolute;
+    right: 0px;
+  }
+  .our-team-page-heading1 {
+    position: absolute;
+    top: 35vh;
+    right: 0px;
+    z-index: 3;
+    text-align: right;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+  }
+  .our-team-page-heading1-bold {
+    font-weight: 700;
+  }
+  .our-team-page {
+    background-color: white;
+    padding-top: 60px;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    height: fit-content;
+  }
+  .our-team-page-team-member {
+    text-align: center;
+    width: fit-content;
+    margin-top: 60px;
+    position: relative;
+  }
+  .our-team-page-team-member .black-in-back {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -20px;
+    right: -12px;
+    z-index: 1;
+    background-color: #1f2e3f;
+  }
+  .our-team-page-team-member .figure {
+    position: relative;
+    z-index: 3;
+  }
+  .our-team-page-team-member-name {
+    font-size: 32px;
+    font-family: "Italiana", serif;
+    text-align: center;
+    color: black;
+  }
+  .our-team-page-team-member-name-description {
+    width: 320px;
+    font-size: 12px;
+    text-align: justify;
+    font-weight: 500;
+    color: black;
+  }
+  /* Practice Area Page  */
+
+  .practice-area-page {
+    background-color: white;
+    padding-top: 60px;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    height: fit-content;
+  }
+  .practice-area-page-heading {
+    width: fit-content;
+    margin-left: 5px;
+    font-size: 32px;
+    font-family: "Italiana", serif;
+    text-align: center;
+  }
+  .practice-area-page-heading1::before {
+    content: " ";
+    width: 10px;
+    margin-right: 5px;
+    background-color: #1f2e3f;
+    height: 70px;
+  }
+  .practice-area-page-heading1-description {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px;
+    line-height: 1.1;
+    text-align: justify;
+    font-size: 16px;
+  }
+  .practice-area-page-heading1-list {
+    margin-left: -20px;
+    font-size: 16px;
+  }
+  .practice-area-page-heading1-list::after {
+    content: ".";
+    width: 50px;
+    height: 160px;
+    float: right;
+    margin-top: -170px;
+    margin-right: -60px;
+    background-color: #1f2e3f;
+  }
+  .practice-area-page-heading2 {
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    border-radius: 45px;
+    background-color: #1f2e3f;
+  }
+
+  .practice-area-page-heading2-description {
+    margin-left: 10px;
+    margin-right: 1px;
+    padding-left: 20px;
+    padding-right: 0px;
+    line-height: 1.1;
+    text-align: justify;
+    font-size: 16px;
+  }
+  .practice-area-page-heading2-list {
+    margin-left: -30px;
+    font-size: 16px;
+  }
+
+  .practice-area-page-heading3 {
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border-radius: 45px;
+    background-color: #1f2e3f;
+  }
+
+  .practice-area-page-heading3-description {
+    margin-left: 10px;
+    margin-right: -5px;
+    padding-left: 15px;
+    padding-right: 0px;
+    line-height: 1.1;
+    text-align: justify;
+    font-size: 16px;
+  }
+  .practice-area-page-heading3-dark {
+    padding-top: 40px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: fit-content;
+    color: white;
+    background-color: #1f2e3f;
+  }
+
+  .practice-area-page-heading3-list-bold {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .practice-area-page-heading3-list {
+    font-size: 14px;
+    margin-bottom: 50px;
+    line-height: 1.2;
+  }
+  .practice-area-page-heading4 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 45px;
+    background-color: #1f2e3f;
+  }
+
+  .practice-area-page-heading4-description {
+    margin-left: 10px;
+    margin-right: -5px;
+    padding-left: 15px;
+    padding-right: 0px;
+    line-height: 1.1;
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .practice-area-page-heading4-list {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .practice-area-page-heading5 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 45px;
+    background-color: #1f2e3f;
+  }
+
+  .practice-area-page-heading5-description {
+    margin-left: 10px;
+    margin-right: -5px;
+    padding-left: 15px;
+    padding-right: 0px;
+    line-height: 1.1;
+    text-align: justify;
+    font-size: 16px;
+  }
+  .practice-area-page-heading5-list {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 50px;
+  }
+
+  .practice-area-page-heading6-dark {
+    padding-top: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: fit-content;
+    color: white;
+    background-color: #1f2e3f;
+  }
+
+  .practice-area-page-heading6 {
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+    text-align: center;
+  }
+
+  .practice-area-page-heading6-description {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    line-height: 1.1;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 16px;
+  }
+
+  .practice-area-page-heading7-dark {
+    padding-top: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-left: 10px;
+    margin-bottom: 200px;
+    height: fit-content;
+    color: white;
+    background-color: #1f2e3f;
+  }
+  .practice-area-page-heading7 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #1f2e3f;
+  }
+
+  .practice-area-page-heading7-description {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    line-height: 1.1;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 16px;
+  }
+  hr.practice-area-last {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    width: 90vw;
+    border: 2px solid rgb(241, 239, 239);
+  }
 }
