@@ -80,32 +80,26 @@ export default function PracticeArea() {
               </Col>
             </Row>
           </Row>
-          <Row className="practice-area-page">
-            <Col>
-              <Row>
-                <Col
-                  md="auto"
-                  className="practice-area-page-heading3">
-                  Corporate and Commercial Law
-                </Col>
-                <Row>
-                  <Col className="practice-area-page-heading3-description">
-                    <p>
-                      Our core team handling corporate law and regulatory
-                      affairs are one of the best in the business. We represent
-                      large Indian companies, public sector organisations,
-                      multinational corporations and private individuals. Our
-                      team appear before every authority and tribunal in India.
-                      From drafting commercial contracts to securing necessary
-                      regulatory approvals, SV&R Partners have the competency
-                      and the necessary skill to handle even the most complex of
-                      cases.
-                    </p>
-                    <br />
-                  </Col>
-                </Row>
-              </Row>
+          <Row className="justify-content-md-center">
+            <Col
+              md="auto"
+              className="practice-area-page-heading3">
+              Corporate and Commercial Law
             </Col>
+            <Row>
+              <Col className="practice-area-page-heading3-description">
+                <p>
+                  Our core team handling corporate law and regulatory affairs
+                  are one of the best in the business. We represent large Indian
+                  companies, public sector organisations, multinational
+                  corporations and private individuals. Our team appear before
+                  every authority and tribunal in India. From drafting
+                  commercial contracts to securing necessary regulatory
+                  approvals, SV&R Partners have the competency and the necessary
+                  skill to handle even the most complex of cases.
+                </p>
+              </Col>
+            </Row>
           </Row>
         </Col>
       </Row>
