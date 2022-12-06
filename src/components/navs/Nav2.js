@@ -25,7 +25,7 @@ export default function Nav2() {
           <ul>
             <li>
               <a
-                href="#d"
+                href="/"
                 class="nav1-link">
                 About Us
               </a>
