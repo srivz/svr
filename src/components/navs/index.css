@@ -9,7 +9,7 @@
 .nav-links {
   text-align: right;
   background-color: #1f2e3f;
-  padding: 20px 0px;
+  padding: 20px 30px;
   margin-bottom: 10px;
   padding-bottom: 5px;
 }
@@ -81,7 +81,7 @@
   border: 1px solid white;
   padding: 1px;
 }
-/* NAV2 */
+/* NAV2 END */
 @media (max-width: 1160px) {
   .nav1-links ul li {
     z-index: 5;
@@ -105,6 +105,7 @@
   .nav-links {
     display: none;
   }
+
   .nav-links ul {
     position: fixed;
     z-index: 5;
@@ -129,10 +130,44 @@
     z-index: 5;
     font-size: 20px;
   }
+
+  .nav1-links {
+    display: none;
+  }
+  .nav1-links ul {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    top: 0px;
+    background-color: #1f2e3f;
+    left: 0px;
+    text-align: center;
+    display: none;
+    transition: all 0.5s;
+  }
+  .nav1-links ul li {
+    display: block;
+    z-index: 5;
+    float: center;
+    clear: center;
+  }
+  .nav1-links ul li a {
+    display: block;
+    z-index: 5;
+    font-size: 20px;
+  }
   #check:checked ~ .nav-links ul {
     display: block;
   }
   #check:checked ~ .nav-links {
+    display: block;
+  }
+  #check:checked ~ .nav1-links {
+    display: block;
+  }
+  #check:checked ~ .nav1-links ul {
     display: block;
   }
 
