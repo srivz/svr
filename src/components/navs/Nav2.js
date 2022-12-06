@@ -21,7 +21,7 @@ export default function Nav2() {
             width={120}
             src={logo}></Image>
         </span>
-        <div class="nav-links">
+        <div class="nav1-links">
           <ul>
             <li>
               <a

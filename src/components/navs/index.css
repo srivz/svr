@@ -9,7 +9,8 @@
 .nav-links {
   text-align: right;
   background-color: #1f2e3f;
-  padding: 20px 30px;
+  padding: 20px 0px;
+  margin-bottom: 10px;
   padding-bottom: 5px;
 }
 .nav-links ul li {
@@ -56,6 +57,29 @@
   z-index: 5;
   padding-left: 100px;
   padding-bottom: 30px;
+}
+.nav1-links {
+  text-align: right;
+  height: fit-content;
+  background-color: #1f2e3f;
+  padding: 20px 40px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+.nav1-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 30px;
+}
+.nav1-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+.nav1-links ul .nav-box a {
+  list-style-position: inside;
+  border: 1px solid white;
+  padding: 1px;
 }
 /* NAV2 */
 @media (max-width: 1160px) {
