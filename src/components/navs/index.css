@@ -55,7 +55,7 @@
 .logo {
   padding-top: 15px;
   z-index: 5;
-  padding-left: 100px;
+  padding-left: 50px;
   padding-bottom: 30px;
 }
 .nav1-links {
@@ -82,16 +82,13 @@
   padding: 1px;
 }
 /* NAV2 END */
-@media (max-width: 1160px) {
-  .nav1-links ul li {
-    z-index: 5;
-    list-style: none;
-    display: inline-block;
-    padding: 10px 10px;
-  }
-}
 
-@media (max-width: 988px) {
+/* For Mobile devices: 320px-480px
+For Tablets or iPad: 480px - 768px
+For Laptop or small-size screen: 768px -1024px
+For Desktop or large-size screen: 1024px -1280px
+For Extra-large size device: 1281px and more */
+@media (min-width: 300px) and (max-width: 1184px) {
   .checkbtn {
     position: fixed;
     top: 10px;
@@ -185,5 +182,179 @@
     z-index: 5;
     padding-left: 150px;
     padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 1185px) and (max-width: 1281) {
+  .nav {
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+  }
+  .nav-links {
+    text-align: right;
+    background-color: #446993;
+    padding: 1px 1px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 11px 1px 1px;
+  }
+  .nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .nav-links ul .nav-box a {
+    list-style-position: inside;
+    border: 1px solid white;
+    padding: 1px;
+  }
+  .checkbtn {
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    line-height: 50px;
+    margin-right: 20px;
+    display: none;
+    cursor: pointer;
+  }
+  #check {
+    display: none;
+  }
+
+  /* NAV2 */
+  .nav1 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 5;
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+  }
+  .logo {
+    padding-top: 15px;
+    z-index: 5;
+    padding-left: 50px;
+    padding-bottom: 30px;
+  }
+  .nav1-links {
+    text-align: right;
+    height: fit-content;
+    background-color: #1f2e3f;
+    padding: 20px 40px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
+  .nav1-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+  }
+  .nav1-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .nav1-links ul .nav-box a {
+    list-style-position: inside;
+    border: 1px solid white;
+    padding: 1px;
+  }
+  /* NAV2 END */
+}
+
+@media (min-width: 1281px) and (max-width: 2290) {
+  .nav {
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+  }
+  .nav-links {
+    text-align: right;
+    background-color: #1f2e3f;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 11px 1px 1px;
+  }
+  .nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .nav-links ul .nav-box a {
+    list-style-position: inside;
+    border: 1px solid white;
+    padding: 1px;
+  }
+  .checkbtn {
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    line-height: 50px;
+    margin-right: 20px;
+    display: none;
+    cursor: pointer;
+  }
+  #check {
+    display: none;
+  }
+
+  /* NAV2 */
+  .nav1 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 5;
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+  }
+  .logo {
+    padding-top: 15px;
+    z-index: 5;
+    padding-left: 50px;
+    padding-bottom: 30px;
+  }
+  .nav1-links {
+    text-align: right;
+    height: fit-content;
+    background-color: #1f2e3f;
+    padding: 20px 40px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
+  .nav1-links ul li {
+    z-index: 5;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+  }
+  .nav1-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .nav1-links ul .nav-box a {
+    list-style-position: inside;
+    border: 1px solid white;
+    padding: 1px;
   }
 }

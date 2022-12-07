@@ -36,15 +36,15 @@ class Home extends Component {
   render() {
     const responsive = {
       desktop: {
-        breakpoint: { max: 3000, min: 1124 },
+        breakpoint: { max: 3000, min: 1200 },
         items: 3,
       },
       tablet: {
-        breakpoint: { max: 1124, min: 464 },
+        breakpoint: { max: 1124, min: 850 },
         items: 2,
       },
       mobile: {
-        breakpoint: { max: 600, min: 0 },
+        breakpoint: { max: 850, min: 0 },
         items: 1,
       },
     };
